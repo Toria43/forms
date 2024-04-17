@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Form</title>
+</head>
+<body>
+    <header class="navbar">
+        <h1>VOSA Beddings | Fill Out Your Preference</h1>
+        <nav class="toplinks">
+            <ul>
+                <li><a href="#myinfo">My Info</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+       <form action="#">
+          <div>
+             <label for="fname">First Name:</label>
+             <input type="text" id="fname" name="fname" required minlength="4" maxlength="8" size="20" />
+          
+          
+             <label for="lname">Last Name:</label>
+             <input type="text" id="lname" name="lname" required minlength="4" maxlength="8" size="20" />
+          </div>
+          <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required minlength="4" maxlength="8" size="20" />
+
+            <label for="tel">Mobile Number:</label>
+            <input type="tel" name="tel" id="tel" size="15">
+          </div>
+
+          <div>
+             <label for="gender">Gender:</label>
+             <label for="gender1">Male</label>
+             <input type="checkbox" name="gender" id="gender1">
+             <label for="gender2">Female</label>
+             <input type="checkbox" name="gender" id="gender2">
+             <label for="gender3">I'd prefer not to say</label>
+             <input type="checkbox" name="gender" id="gender3">
+          </div>
+          <div>
+            <label for="size">What is the size of the Bed?</label>
+            <label for="size1">Twin size</label>
+            <input type="radio" name="size" id="size1">
+            <label for="size2">Twin XL size</label>
+            <input type="radio" name="size" id="size2">
+            <label for="size3">Full size</label>
+            <input type="radio" name="size" id="size3">
+            <label for="size4">Queen size</label>
+            <input type="radio" name="size" id="size4">
+            <label for="size5">King size</label>
+            <input type="radio" name="size" id="size5">
+            <label for="size6">Callifornia king size</label>
+            <input type="radio" name="size" id="size6">
+          </div>
+          <div>
+            <label for="color1"> 1<sup>st</sup> Color of Bedding:</label>
+            <input type="color" name="color" id="color1">
+            <label for="color2">2<sup>nd</sup> Color of Bedding:</label>
+            <input type="color" name="color" id="color2">
+            <label for="color2">3<sup>rd</sup> Color of Bedding:</label>
+            <input type="color" name="color" id="color2">
+          </div>
+          <div>
+            <label for="pattern">Desired Pattern for the Fabric:</label>
+            <input type="file" accept="image/*, text/*" name="file" id="pattern"/>
+          </div>
+          <div>
+            <label for="url"> Or Input Pattern URL:</label>
+            <input type="url" name="url" id="url">
+          </div>
+          <div>
+            <label for="text">Decribe your Dream Bed:</label>
+            <input type="text" name="text" id="text" min="10" max="150">
+          </div>
+          <div>
+            <label for="number">How many Beddings would you be Purchasing?</label>
+            <input type="number" name="number"/>
+          </div>
+          <div>
+            <label for="date">Delivery Date:</label>
+            <input type="date" name="date" id="date">
+            <label for="week">Delivery week:</label>
+            <input type="week" name="week" id="week">
+            <label for="time">Delivery Time:</label>
+            <input type="time" name="time" id="time">
+          </div>
+          <div>
+            <label for="date">Confirm Preferred Day/Time of Delivery:</label>
+            <!-- <input type="date" name="date" id="date"> -->
+            <input type="datetime-local" name="date" id="date">
+          </div>
+          <div>
+            <label for="password">Create Log-in Password :</label>
+            <input type="password" name="password" id="passwords">
+          </div>
+          <div>
+            <label for="reset">Made a mistake, Start over!</label>
+            <input type="reset" value="Reset">
+        </div>
+          <div>
+            <label for="range">Rate our Services:</label>
+            <input type="range" name="range" id="range" min="0" max="10">
+          </div>
+          <input type="image" src="https://images.unsplash.com/flagged/photo-1575517111839-3a3843ee7f5d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZHxlbnwwfHwwfHx8MA%3D%3D" alt="blue bed and mattress with pillows"  height="100px">
+          <input id="userId" name="userId" type="hidden" value="abc123">
+            
+           <div>
+            <input type="button" value="Submit" popovertarget>
+           </div> 
+            <label for="search">Search in page:</label>
+            <input type="search" name="search" id="search">
+       
+        </form>
+    
+    </section>
+</body>
+</html>
